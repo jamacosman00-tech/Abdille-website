@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacts page</title>
+   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+            <script src="./Tailwindcss.js"></script>
+            <!--script src="https://cdn.tailwindcss.com"></script-->
+  <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    
+
+
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <!-- Header -->
+  <header class=" text-black p-4 ">
+    <div class="container mx-auto flex justify-between items-center">
+       <a class="flex items-center" href="AssProj.html">
+              <img class="h-20 w-auto" src="./WebLogo.jpg" alt="" />
+              <span class="hidden md:block ml-5 font-bold text-2xl text-black"
+                >ElectroStore</span
+              >
+            </a>
+     
+      <nav class="space-x-4">
+        <a href="AssProj.html" class="hover:bg-yellow-500">Home</a>
+        <a href="products.html" class="hover:bg-yellow-500">Products</a>
+        <a href="contactUS.html" class="hover:bg-yellow-500">Contact</a>
+        <a href="AboutwithUS.html" class="hover:bg-yellow-500 ">About Us</a>
+        <a href="Offers.html" class="hover:bg-yellow-500">Offers</a>
+        
+      </nav>
+    </div>
+  </header>
+
+  <!-- CONTACT FORM -->
+  <section class="max-w-3xl mx-auto mt-12 px-6">
+    <h2 class=" bg-blue-700 rounded-full hover:bg-purple-500 font-extrabold mb-7 text-center text-yellow-400">Order or Contact Us</h2>
+
+    <form class="bg-white shadow-lg p-8 rounded-xl space-y-4">
+
+      <div>
+        <label class="font-semibold block mb-1">Your Name</label>
+        <input type="text" placeholder="Enter your name"
+          class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-orange-400 outline-none" required>
+      </div>
+
+      <div>
+        <label class="font-semibold block mb-1">Email</label>
+        <input type="email" placeholder="Enter your email"
+          class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-orange-400 outline-none" required>
+      </div>
+
+      <div>
+        <label class="font-semibold block mb-1">Product Name</label>
+        <input type="text" placeholder="Product name or type"
+          class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-orange-400 outline-none" required>
+      </div>
+
+      <div>
+        <label class="font-semibold block mb-1">Description</label>
+        <textarea placeholder="Write your message or order details..." rows="5"
+          class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-orange-400 outline-none" required></textarea>
+      </div>
+
+      <button type="submit"
+        class="w-full bg-green-600 text-white py-2 rounded-lg font-semibold hover:bg-orange-700 transition">
+        Send your Description
+      </button>
+    </form>
+  </section>
+
+
+  <!-- CONTACT LINKS -->
+  <section class="max-w-3xl mx-auto mt-12 px-6 text-center">
+    <h3 class="text-2xl font-bold text-orange-700 mb-4">Contact Us Directly</h3>
+
+    <div class="flex justify-center space-x-8 text-lg">
+
+      <a href="#" target="_blank" class="flex items-center space-x-2 hover:text-green-600">
+        <i class="fab fa-whatsapp text-2xl"></i>
+        <span>WhatsApp</span>
+      </a>
+
+      <a href="#" class="flex items-center space-x-2 hover:text-red-600">
+        <i class="fas fa-envelope text-2xl"></i>
+        <span>Gmail</span>
+      </a>
+
+      <a href="#" target="_blank" class="flex items-center space-x-2 hover:text-blue-600">
+        <i class="fab fa-facebook text-2xl"></i>
+        <span>Facebook</span>
+      </a>
+
+    </div>
+  </section>
+  
+  <!-- Footer -->
+   <div>
+  <footer class="bg-green-500 text-white text-center py-20 px-20 mt-6">
+    © 2025 ElectroStore. All rights reserved.</div>
+    
+</body>
+</html>
