@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ElectroStore</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+            <script src="./Tailwindcss.js"></script>
+          <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <!-- Header -->
+  <header class=" text-black p-4 shadow-md">
+  <div class="container mx-auto flex justify-between items-center">
+
+  <a class="flex items-center" href="AssProj.html">
+        <img class="h-20 w-auto" src="./WebLogo.jpg">
+        <span class="hidden md:block ml-5 font-extrabold text-2xl text-black">ElectroStore</span>
+           </a>
+      
+
+    <nav class="space-x-4">
+        <a href="AssProj.html" class="hover:bg-yellow-500">Home</a>
+        <a href="products.html" class="hover:bg-yellow-500">Products</a>
+        <a href="contactUS.html" class="hover:bg-yellow-500">Contact</a>
+        <a href="AboutwithUS.html" class="hover:bg-yellow-500 ">About Us</a>
+        <a href="Offers.html" class="hover:bg-yellow-500">Offers</a>
+       </nav>
+
+    </div>
+
+  </header>
+       <!-- Hero Section -->
+
+ <section id="home" class="relative"   style=" 
+    background-image: url('Build.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 87vh">
+  <div class="absolute inset-0  bg-opacity-50"></div>
+  <div class="relative z-10 flex flex-col items-center justify-center h-full px-4">
+    <h1 class="text-5xl font-bold mb-4 text-yellow-400">Welcome to ElectroStore</h1>
+    <p class="text-lg text-white mb-6">Your trusted online shop for quality electronics  
+       ElectroStore is your ultimate destination for high-quality electronics. 
+      Explore our wide range of products including laptops, smartphones, headphones, 
+      smartwatches, and much more. We pride ourselves on delivering exceptional service, 
+      trusted products, and unbeatable deals. Whether youre shopping for work, school, 
+      or entertainment, ElectroStore has everything you need to stay connected and ahead 
+      in technology</p>
+   
+    <a href="products.html" class="bg-yellow-400 hover:bg-cyan-500 text-gray-900 font-bold py-3 px-6 rounded-full transition duration-300">Shop Now</a>
+     </div>
+</section>
+
+
+  <!-- Products Section -->
+     <section id="products" class="container mx-8 py-8">
+    <h3 class="text-3xl font-bold mb-6 text-center">Some our Products</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- Product Card 1 -->
+      <div class="bg-white p-4 rounded-xl">
+        <img src="laptop.jpg" alt="Laptop" class="rounded-lg mb-4 w-full" />
+        <h4 class="text-xl font-semibold">Laptop</h4>
+        <p class="text-gray-600">High performance laptop for work and gaming</p>
+        <p class="font-bold text-blue-600 mt-2">$899</p>
+        <button class="mt-4 w-full bg-blue-600 text-white hover:bg-gray-700 py-2 rounded-lg">Add to Cart</button>
+      </div>
+
+      <!-- Product Card 2 -->
+      <div class="bg-white p-4 rounded-xl ">
+        <img src="smartphone.jpg" alt="Smartphone" class="rounded-md mb-4 w-full" />
+        <h4 class="text-xl font-semibold">Smartphone</h4>
+        <p class="text-gray-600">Latest smartphone with modern features</p>
+        <p class="font-bold text-blue-600 mt-2">$699</p>
+        <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-red-700">Add to Cart</button>
+      </div>
+
+      <!-- Product Card 3--> 
+      <div class="bg-white p-4 rounded-xl">
+        <img src="headphone.jpg" alt="Headphones" class="rounded-lg mb-4 w-full" />
+        <h4 class="text-xl font-semibold">Headphones</h4>
+        <p class="text-gray-600"> Aripots with smarting  and wireless headphones</p>
+        <p class="font-bold text-blue-600 mt-2">$14</p>
+        <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-yellow-700">Add to Cart</button>
+      </div>
+
+    </div>
+  </section> 
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-blue-600 text-white py-12 text-center">
+    <h3 class="text-3xl font-extrabold mb-4 text-black">Hint with Us</h3>
+    <p class="ml-6 mb-3">  <i class="fas fa-envelope text-2xl mr-3 hover:text-red-600"></i>Email: Jamac@electrostore.com </p>
+    <p>  <i class="fa fa-phone mr-3 text-2xl hover:text-yellow-400"></i>Phone: +252 611432415 </p>
+  </section>
+<!-- About Us Section -->
+  <section id="about" class="container mx-auto py-12">
+    <h3 class="text-3xl font-bold mb-4 text-center">About Us</h3>
+    <p class="text-green-700 text-center max-w-2xl mx-auto">ElectroStore is a leading online electronics
+       shop providing high-quality gadgets including laptops, smartphones, and accessories.
+        Our goal is to offer trusted products at affordable prices
+       while ensuring excellent customer service.</p>
+  </section>
+
+  <!-- Offers Section -->
+  <section id="offers" class="bg-gray-500 py-12">
+    <h3 class="text-3xl font-extrabold text-black mb-4 text-center">Special Offers</h3>
+    <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-white p-4 rounded-xl shadow-md text-center">
+        <h4 class="text-xl font-semibold mb-2 ">Laptop Discount</h4>
+        <p class="text-gray-600 mb-2">Save up to 20% on selected laptops!</p>
+        <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-green-700">Shop Now</button>
+      </div>
+      <div class="bg-white p-4 rounded-xl shadow-md text-center">
+        <h4 class="text-xl font-semibold mb-2">Phone Deals</h4>
+        <p class="text-gray-600 mb-2">Buy 1 smartphone and get free earphones!</p>
+        <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-green-700">Shop Now</button>
+      </div>
+      <div class="bg-white p-4 rounded-xl shadow-md text-center">
+        <h4 class="text-xl font-semibold mb-2">Accessories Combo</h4>
+        <p class="text-gray-600 mb-2">Get 3 accessories for the price of 2!</p>
+        <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-green-700">Shop Now</button>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+   <div>
+  <footer class="bg-blue-800 text-white text-center py-7 mt-6">
+    © 2025 ElectroStore. All rights reserved.</div>
+
+</footer>
+</body>
+</html>
